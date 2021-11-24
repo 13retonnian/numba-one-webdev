@@ -1,8 +1,8 @@
 # numba-one-webdev
-We're the best
 
-- Instructor: [Ashlyn Knox]()
-- Links: [Github Repo Link]() || [Netlify Link]()
+- Web Dev Fall 2021
+- Instructor: [Ashlyn Knox](https://github.com/lilyx13)
+- Links: [Github Repo Link](https://github.com/Icahpv/numba-one-webdev.git) || [Netlify Link]()
 
 ## About the website
 
@@ -24,11 +24,11 @@ Web Development website.
 
 ## Team Members
 
-- Chris Barber - Back End Dev Ops :sunglasses:
-- Filora A. - Content Editor :heart_eyes:
-- Icah Vega - Content Editor :nerd_face:
-- James Atkinson - Front End :cowboy_hat_face:
-- Jared Herman - Designer :sleeping:
+- [Chris Barber](https://github.com/13retonnian) - Back End Dev Ops :sunglasses:
+- [Filora A.](https://github.com/aeoyu) - Content Editor :heart_eyes:
+- [Icah Vega](https://github.com/Icahpv) - Content Editor :nerd_face:
+- [James Atkinson](https://github.com/Archangel767) - Front End :cowboy_hat_face:
+- [Jared Herman]() - Designer :sleeping:
 
 ### Rules
 
