@@ -8,6 +8,7 @@ export default {
   name: 'AppFooter'
 }
 </script>
+<!-- CSS -->
 <style>
   .footer {
     display: flex;

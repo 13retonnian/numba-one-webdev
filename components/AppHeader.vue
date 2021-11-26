@@ -1,21 +1,7 @@
 <template>
   <header class="header">
     <h1 class="title">Dad Jokes</h1>
-    <ul>
-      <li>
-        <nuxt-link to='/'>Home</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to='/work'>Our Work</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to='/team'>Our Team</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to='/contact'>Contact Us</nuxt-link>
-      </li>
-    </ul>
-        
+    <Navigation />
   </header>  
 </template>
 
@@ -24,6 +10,7 @@ export default {
   name: 'AppHeader'
 }
 </script>
+<!-- CSS -->
 <style>
   .header {
     display: flex;
