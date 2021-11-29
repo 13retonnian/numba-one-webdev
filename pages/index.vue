@@ -1,6 +1,7 @@
 <template>
   <v-container>
     <Header />
+    <NuxtLink :to="`blog/${blog.slug}`"> {{ blog.title }}</NuxtLink>
   </v-container>
 </template>
 
