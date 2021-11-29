@@ -4,7 +4,7 @@
      <h1> {{ blog.title }} </h1>
      <section>
        <ul>
-       <li>Description: {{ blog.image }}</li>
+       <li>Description: {{ blog.description }}</li>
        <li>Publish Date: {{ blog.date }}</li>
      </ul>
      </section>
