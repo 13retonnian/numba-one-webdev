@@ -3,7 +3,7 @@
     <Header />
     <h1>My Blog</h1>
     <ul>
-      <li>
+      <li v-for="blog in blogs" :key="blog.slug">
         <NuxtLink :to="`blog/${blog.slug}`"> {{ blog.title }}</NuxtLink>
     </li>
     </ul>
@@ -13,7 +13,7 @@
 
 <script>
 export default {
-   async asyncData({ $content }) {
+   async asyncData({ $content, params }) {
     const blogs = await $content('blog').fetch()
     return {
       blogs,
