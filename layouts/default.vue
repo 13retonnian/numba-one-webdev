@@ -1,18 +1,34 @@
 <template>
   <div class="container">
     <AppHeader />
+    <h1>My Blog</h1>
+    <ul>
+      <li>
+        <NuxtLink :to="`blog/${blog.slug}`"> {{ blog.title }}</NuxtLink>
+      </li>
+    </ul>
     <AppFooter />
   </div>
 </template>
 
 <script>
-  import AppHeader from '../components/AppHeader';
-  import AppFooter from '../components/AppFooter';
-  export default {
-    components: {
-      AppHeader,
-      AppFooter
+export default {
+    async asyncData({ $content }) {
+    const blogs = await $content('blog').fetch()
+    return {
+      blogs,
     }
+  },
+  head() {
+    return {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
+    };
+  },
+
+  generate: {
+    fallback: true
+  },
 }
 </script>
 
