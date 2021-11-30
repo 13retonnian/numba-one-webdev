@@ -33,9 +33,20 @@
     list-style: none;
   }
 
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
-  overflow: hidden;
-}
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    overflow: hidden;
+  }
+
+  html {
+    background-image: url("static/assets/images/background-image2.jpg");
+    background-repeat: no-repeat;		
+    background-position: top;	
+    background-size: cover;	
+  }
+
+  h1 {
+    font-size: 30px;
+  }
 </style>
