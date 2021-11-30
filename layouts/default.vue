@@ -40,10 +40,12 @@
   }
 
   html {
-    background-image: url("static/assets/images/background-image2.jpg");
+    background-image: url("static/assets/images/background-image.svg");
     background-repeat: no-repeat;		
     background-position: top;	
-    background-size: cover;	
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;
   }
 
   h1 {
