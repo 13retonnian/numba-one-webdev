@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>&copy; 2021 | JimJam Super Footer</p>
+    <p>&copy; 2021 | Numbaone Web Development</p>
   </footer>
 </template>
 <script>
