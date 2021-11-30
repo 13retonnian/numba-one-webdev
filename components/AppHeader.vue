@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class="title">Dad Jokes</h1>
+    <h1 class="title">Numbaone Web Development</h1>
     <Navigation />
   </header>  
 </template>
