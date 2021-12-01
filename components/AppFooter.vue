@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <p>&copy; 2021 | Numbaone Web Development</p>
+    <p class="font-bold text-lg p-2">&copy; 2021 | NumbaOne Web Development | MIT License</p>
   </footer>
 </template>
 <script>

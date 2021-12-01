@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1> {{ contactInfo.title }} </h1>
+    <h1 class="text-center"> {{ contactInfo.title }} </h1>
     <section>
-      <ul>
+      <ul class="text-center">
       <li>Contact Number: {{ contactInfo.number }}</li>
       <li>Address: {{ contactInfo.address }}</li>
       <li>E-mail: {{ contactInfo.email }}</li>
