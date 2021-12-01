@@ -33,9 +33,22 @@
     list-style: none;
   }
 
-.container {
-  max-width: 800px;
-  margin: 2rem auto;
-  overflow: hidden;
-}
+  .container {
+    max-width: 800px;
+    margin: 2rem auto;
+    overflow: hidden;
+  }
+
+  html {
+    background-image: url("static/assets/images/background-image.svg");
+    background-repeat: no-repeat;		
+    background-position: top;	
+    background-size: cover;
+    height: 100vh; 
+    background-attachment: fixed;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
 </style>

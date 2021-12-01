@@ -31,3 +31,16 @@ export default {
   },
 };
 </script>
+
+<style>
+html {
+  background-image: url("static/assets/images/background-image.jpg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 30px;
+}
+</style>
