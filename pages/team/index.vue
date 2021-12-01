@@ -57,6 +57,10 @@ export default {
 </script>
 
 <style>
+
+body {
+  background-color: white;
+}
   .grid-box {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
