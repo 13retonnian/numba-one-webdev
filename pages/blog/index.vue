@@ -2,8 +2,8 @@
   <v-container>
     <h1>My Blog</h1>
     <ul>
-      <li v-for="blog in blogs" :key="blog.slug">
-
+      <li v-for="blog in blogs" :key="blog.slug"></li>
+    </ul>
   </v-container>
 </template>
 <script>
@@ -26,4 +26,3 @@ export default {
   },
 };
 </script>
-
