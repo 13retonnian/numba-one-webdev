@@ -2,7 +2,7 @@
 <div>
   <Header :pageInfo="siteInfo" />
   <header>
-    <h1> {{ siteInfo.pageName }}</h1>
+    <h1 class="text-center"> {{ siteInfo.pageName }}</h1>
     <main class="grid-box">
       <Cards v-for="topic in topics" :key="topic.id" :info="topic" />
     </main>
