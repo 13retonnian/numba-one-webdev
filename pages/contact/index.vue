@@ -13,30 +13,15 @@
     </section>   
   </div>
 </template>
+
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const contactInfo = await $content('contact-info').fetch()
+  data(){
     return {
-      contactInfo,
-    }
-  },
-  head() {
-    return {
-      title: 'Contact',
-      meta: [
-        {
-          hid: "description",
-          name: "description",
-          content: "contact details"
-        }
-      ]
-    };
-  },
-  generate: {
-    fallback: true
-  },
-};            
+     
+  }
+}
+}            
 </script>
 
 <style>
