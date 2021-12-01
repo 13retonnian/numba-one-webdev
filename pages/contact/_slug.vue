@@ -17,15 +17,6 @@
 </template>
 <script>
 export default {
-   async asyncData({ $content, params, error }) {
-    try {
-      const contactInfo = await $content(`contact-info/${params.slug}`).fetch()
-      return {
-        contactInfo,
-      }
-    } catch (e) {
-      error('No article found')
-    }
-  },
+  props: ["contactInfo"]
 }
 </script>
