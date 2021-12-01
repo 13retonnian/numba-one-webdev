@@ -1,18 +1,18 @@
 <template>
-<div>
-  <Header :pageInfo="siteInfo" />
-  <header>
-    <h1 class="text-center"> {{ siteInfo.pageName }}</h1>
-    <main class="grid-box">
-      <Cards v-for="topic in topics" :key="topic.id" :info="topic" />
-    </main>
-  </header>
-</div>
+  <div>
+    <Header :pageInfo="siteInfo" />
+    <header>
+      <h1>{{ siteInfo.pageName }}</h1>
+      <main class="grid-box">
+        <Cards v-for="topic in topics" :key="topic.id" :info="topic" />
+      </main>
+    </header>
+  </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       siteInfo: {
         pageName: "Card Gallery",
@@ -20,52 +20,37 @@ export default {
       },
       topics: [
         {
-          title: "I'm",
-          description: "Danger 5 meme",
-          img: "images/chuckle.jpeg"
+          title: "I'm Icha",
+          img: "images/icah.png",
         },
         {
-          title: "Too",
-          description: "Danger 5 meme",
-          img: "images/chuckle.jpeg"
+          title: "I'm Chris",
+          img: "images/chris.png",
         },
         {
-          title: "Lazy",
-          description: "Danger 5 meme",
-          img: "images/chuckle.jpeg"
+          title: "I'm Filora",
+
+          img: "images/filora.png",
         },
         {
-          title: "To",
-          description: "Danger 5 meme",
-          img: "images/chuckle.jpeg"
+          title: "I'm James",
+
+          img: "images/james.png",
         },
-        {
-          title: "Find",
-          description: "Danger 5 meme",
-          img: "images/chuckle.jpeg"
-        },
-        {
-          title: "Pictures",
-          description: "Danger 5 meme",
-          img: "images/chuckle.jpeg"
-        }
-        
-      ]
-    }
-  }
-}
+      ],
+    };
+  },
+};
 </script>
 
 <style>
-
 body {
   background-color: white;
 }
-  .grid-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;    
-    text-align: center;
-  }
-
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  text-align: center;
+}
 </style>
