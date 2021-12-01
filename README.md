@@ -49,6 +49,8 @@ Web Development website.
 ## Attributions
 > Instructions: For pictures, we need the image link, author link and website link.
 
+1. [Icah's article Photo](https://www.pexels.com/photo/woman-in-red-long-sleeve-shirt-sitting-on-chair-3783716/) by [Andrea Piacquadio](https://www.pexels.com/@olly) from [Pexels](https://www.pexels.com/)
+
 
 
 #### License

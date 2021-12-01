@@ -1,11 +1,10 @@
 <template>
   <v-container>
-    <Header />
     <h1>My Blog</h1>
     <ul>
       <li v-for="blog in blogs" :key="blog.slug">
-        <NuxtLink :to="`blog/${blog.slug}`"> {{ blog.title }}</NuxtLink>
-    </li>
+        <NuxtLink :to="`blog/${blog.slug}`">{{ blog.title }}</NuxtLink>
+        </li>
     </ul>
     
   </v-container>
