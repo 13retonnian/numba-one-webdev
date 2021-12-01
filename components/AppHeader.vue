@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <h1 class="title">Numbaone Web Development</h1>
+    <h1 class="title">NumbaOne Web Development</h1>
     <Navigation />
   </header>  
 </template>
@@ -12,10 +12,10 @@ export default {
 </script>
 <!-- CSS -->
 <style>
+
   .header {
     display: flex;
     justify-content: space-between;
-
     align-items:center;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
