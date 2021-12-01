@@ -1,7 +1,11 @@
 <template>
   <v-container>
-    <h1 class="text-center">My Blog</h1>
-    <ul>
+    <h1 class="text-center p-5 text-8xl">My Blog</h1>
+    <ul class="text-center p-10">
+      <li v-for="blog in blogs" :key="blog.id">
+        <NuxtLink class="text-xl" :to="`blog/${blog.slug}`"><strong>{{ blog.title }}</strong> - {{ blog.description }} </NuxtLink>
+      </li>
+    </ul>
   </v-container>
 </template>
 

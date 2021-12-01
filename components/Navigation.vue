@@ -1,17 +1,17 @@
 <template>
   <v-container>
-      <ul>
-      <li>
-        <NuxtLink to="/">Home page</NuxtLink>
+      <ul class="font-bold flex pr-20">
+      <li class="text-xl font-bold">
+        <NuxtLink class="text-black hover:text-yellow-400 pr-5" to="/">Home page</NuxtLink>
       </li>
-      <li>
-        <NuxtLink to="/work">Our Work</NuxtLink>
+      <li class="text-xl font-bold">
+        <NuxtLink class="text-black hover:text-green-600 pr-5" to="/blog">Our Work</NuxtLink>
       </li>
-      <li>
-        <NuxtLink to="/team">Our Team</NuxtLink>
+      <li class="text-xl font-bold">
+        <NuxtLink class="text-black hover:text-blue-500 pr-5" to="/team">Our Team</NuxtLink>
       </li>
-      <li>
-        <NuxtLink to="/contact">Contact</NuxtLink>
+      <li class="text-xl font-bold">
+        <NuxtLink class="text-black hover:text-purple-700 pr-5" to="/contact">Contact</NuxtLink>
       </li>
     </ul>
   </v-container>

@@ -15,32 +15,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+    overflow-x: hidden;
   }
 
-  body {
-    font-family: Arial, Helvtica, sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    background: #f4f4f4;
-  }
-
-  a {
-    color: #666;
-    text-decoration: none;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  .container {
-    max-width: 800px;
-    margin: 2rem auto;
-    overflow: hidden;
-  }
-
-  h1 {
-    font-size: 30px;
-  }
 </style>
