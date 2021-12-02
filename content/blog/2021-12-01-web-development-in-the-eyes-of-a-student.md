@@ -3,6 +3,7 @@ title: Web Development in the eyes of a Student
 date: 2021-12-01T18:12:43.916Z
 description: Student Experience
 image: https://images.pexels.com/photos/935756/pexels-photo-935756.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+author: Icah Vega
 ---
 This article might not be the usual article you would see on a tech site, I mean, who writes about being a newbie right, while some might not find this interesting, some might see this as the sign they are looking for, whether if it is changing your career or what you want to be after high school. One this is for sure though, that we have all been here before.
 
