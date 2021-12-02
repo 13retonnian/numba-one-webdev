@@ -43,7 +43,7 @@ Web Development website.
 
 ### Problem
 
-
+1. The background that we are using was supposed to be a splash page but ended up being a background because it keeps sticking to the other pages.
 
 
 ## Attributions
