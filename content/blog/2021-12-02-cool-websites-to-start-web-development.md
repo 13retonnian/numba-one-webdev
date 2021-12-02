@@ -3,6 +3,7 @@ title: Cool websites to start web development
 date: 2021-12-02T22:07:54.047Z
 description: "Educational "
 image: https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260
+author: Icah Vega
 ---
 1. ## **[FreeCodeCamp](https://www.freecodecamp.org/)**
 
