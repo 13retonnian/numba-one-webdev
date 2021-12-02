@@ -5,7 +5,6 @@
       <h1>{{ siteInfo.pageName }}</h1>
       <main class="grid-box">
         <Cards v-for="topic in topics" :key="topic.id" :info="topic" />
-      </main>
     </header>
   </div>
 </template>
@@ -20,22 +19,24 @@ export default {
       },
       topics: [
         {
-          title: "I'm Icha",
+          title: "I'm Icah",
           img: "images/icah.png",
+          account: "https://github.com/Icahpv"
         },
         {
           title: "I'm Chris",
           img: "images/chris.png",
+          account: "https://github.com/13retonnian"
         },
         {
           title: "I'm Filora",
-
           img: "images/filora.png",
+          account: "https://github.com/aeoyu"
         },
         {
           title: "I'm James",
-
           img: "images/james.png",
+          account: "https://github.com/Archangel767"
         },
       ],
     };
