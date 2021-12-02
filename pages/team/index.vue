@@ -41,7 +41,7 @@ export default {
           img: "images/chris.png",
           account: "https://github.com/13retonnian" ,
           description: 
-            "Cool guy!",
+            "Has the power of invisibility but only when no one is looking. He is a dev ops agent for the NumbaOne Webdev squad.",
         },
         {
           image: "assets/images/filora.png",
