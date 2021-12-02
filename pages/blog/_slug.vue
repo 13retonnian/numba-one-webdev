@@ -1,17 +1,18 @@
 <template>
   <v-main>
    <div class="bg-white flex flex-col justify-center items-center">
-     <h1 class="p-10 italic shadow-md text-gray-700">" {{ blog.title }} " </h1>
+     <h1 class="p-10 italic text-gray-700">" {{ blog.title }} " </h1>
      <section class="p-10 text-xl flex flex-col justify-center items-center">
        <ul>
         <li><img class="p-2 rounded-2xl" :src="blog.image" width="700" height="700"></li>
        <li class="p-2"><strong>Description:</strong> {{ blog.description }}</li>
        <li class="p-2"><strong>Publish Date:</strong> {{ blog.date }}</li>
+       <li class="p-2"><strong>Author:</strong> {{ blog.author }}</li>
      </ul>
      </section>
-     <section class="content text-justify max-w-5xl leading-loose text-xl m-5">
+     <article class="content text-justify max-w-5xl leading-loose text-xl m-5">
        <nuxt-content :document="blog" />
-     </section>
+     </article>
    </div>
  </v-main>
 </template>
@@ -35,7 +36,7 @@ h1 {
   font-weight: bolder;
 }
 
-section {
+section, article {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   word-spacing: 5%;
 }
