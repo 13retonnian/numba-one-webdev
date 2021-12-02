@@ -1,11 +1,11 @@
 <template>
-  <div class="card">
-    <figure>
-      <div v-html="`<h3>${info.title}</h3>`"></div>
+  <div class="card text-center rounded-lg hover:shadow-2xl hover:text-purple-700">
+    <a :href="info.account"><figure class="flex justify-center items-center flex-col">
+      <div class="text-2xl p-5 font-bold" v-html="`<h3>${info.title}</h3>`"></div>
       <nuxt-img :src="info.image" sizes="sm:300px" />
       <figcaption v-text="info.description" />
-      <a href=""></a>
-    </figure>
+      <img class="p-5" src="assets/images/gh-icon.png">
+    </figure></a>
   </div>
 </template>
 <script>
