@@ -2,15 +2,17 @@
   <div>
     <Header :pageInfo="siteInfo" />
     <header>
-      <h1>{{ siteInfo.pageName }}</h1>
-      <main class="flex justify-evenly gap-x-16 gap-y-16 flex-wrap p-16">
-        <Card
-          :pageInfo="siteInfo"
-          v-for="card in topics"
-          :key="card.id"
-          :info="card"
-        />
-      </main>
+      <div class="theones">
+        <h1>{{ siteInfo.pageName }}</h1>
+        <main class="flex justify-evenly gap-y-16 flex-wrap p-10">
+          <Card
+            :pageInfo="siteInfo"
+            v-for="card in profiles"
+            :key="card.id"
+            :info="card"
+          />
+        </main>
+      </div>
     </header>
   </div>
 </template>
@@ -20,10 +22,10 @@ export default {
   data() {
     return {
       siteInfo: {
-        pageName: "Card Gallery",
+        pageName: "The Ones",
         author: "numbaone",
       },
-      topics: [
+      profiles: [
         {
           image: "assets/images/icah.png",
           title: "I'm Icha",
@@ -53,17 +55,15 @@ export default {
 </script>
 
 <style>
-body {
-  /* background-color: white; */
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  text-align: center;
 }
-.grid-box {
-  /* display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
-  text-align: center; */
+main {
+  gap: 13px;
 }
-.figcaption {
-  margin: 0;
-  display: inline-block;
+.theones {
+  padding-top: 3rem;
 }
 </style>
