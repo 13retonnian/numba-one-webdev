@@ -40,4 +40,12 @@ section {
   word-spacing: 5%;
 }
 
+a:hover {
+  color: gray;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
 </style>
