@@ -8,7 +8,7 @@
       </li>
       <li class="text-xl font-bold">
         <NuxtLink class="text-black hover:text-green-600 pr-5" to="/blog"
-          >Our Work</NuxtLink
+          >Blog</NuxtLink
         >
       </li>
       <li class="text-xl font-bold">
