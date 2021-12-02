@@ -51,6 +51,7 @@ Web Development website.
 
 1. [Icah's article Photo](https://www.pexels.com/photo/woman-in-red-long-sleeve-shirt-sitting-on-chair-3783716/) by [Andrea Piacquadio](https://www.pexels.com/@olly) from [Pexels](https://www.pexels.com/)
 2. [GitHub Icon](https://www.flaticon.com/premium-icon/github_3291695?term=github&page=1&position=1&page=1&position=1&related_id=3291695&origin=search) by [riajulislam](https://www.flaticon.com/authors/riajulislam) from [Flaticon](https://www.flaticon.com/)
+3. [Cool website article photo](https://www.pexels.com/photo/person-coding-on-a-macbook-pro-4974912/) by [Olia Danilevich](https://www.pexels.com/@olia-danilevich) from [Pexels](https://www.pexels.com/)
 
 
 
