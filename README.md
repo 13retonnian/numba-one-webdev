@@ -2,7 +2,7 @@
 
 - Web Dev Fall 2021
 - Instructor: [Ashlyn Knox](https://github.com/lilyx13)
-- Links: [Github Repo Link](https://github.com/Icahpv/numba-one-webdev.git) || [Netlify Link](https://numbaonewebdev.netlify.app)
+- Links: [Github Repo Link](https://github.com/Icahpv/numba-one-webdev.git) || [Netlify Link](https://numbaonewebdev.netlify.app) | [Kanban Board](https://github.com/13retonnian/numba-one-webdev/projects/1)
 
 ## About the website
 
